@@ -7,7 +7,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.ljc.hongbao"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -31,8 +31,8 @@ dependencies {
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile "org.androidannotations:androidannotations-api:$AAVersion"
     compile files('libs/pgyer_sdk_2.4.5.jar')
+    compile files('libs/activeandroid-3.1-beta.jar')
     testCompile 'junit:junit:4.12'
-    compile files('libs/pgyer_sdk_2.4.5.jar')
 }
 
 apt {

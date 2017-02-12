@@ -2,7 +2,7 @@ package com.ljc.hongbao.core;
 
 import android.view.accessibility.AccessibilityNodeInfo;
 
-import com.dxytech.oden.annotations.app.utils.L;
+import com.ljc.hongbao.app.utils.L;
 
 
 public class HongbaoSignature {

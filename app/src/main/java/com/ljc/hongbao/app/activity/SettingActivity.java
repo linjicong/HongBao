@@ -65,10 +65,12 @@ public class SettingActivity extends PreferenceActivity {
     }
 
     private void loadUI() {
+        L.i("SettingActivity","loadui start...");
         addPreferencesFromResource(R.xml.preferences);
         // Get rid of the fucking additional padding
         getListView().setPadding(0, 0, 0, 0);
         getListView().setBackgroundColor(0xfffaf6f1);
+        L.i("SettingActivity","loadui finished...");
     }
 
     private void updateServiceStatus() {
